@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Natur</title>
+</head>
+
+<body>
+    <section class="showcase">
+        <header>
+            <div class="menu" id="myTopnav">
+
+                <a href="#home" class="active">Home</a>
+                <a href="#news">News</a>
+                <a href="#blog">Blog</a>
+                <a href="#category">Categories</a>
+                <a href="#contact">Contact</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                  </a>
+
+
+            </div>
+
+            <video src="imgs/nature.mp4" muted loop autoplay></video>
+        <div class="overlay"></div>
+        <div class="text">
+            <h2>Nature's Beauty</h2>
+            <h3>Explore More</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Dicta laborum quae odit quo sunt voluptas ea enim molestias voluptatum reiciendis.</p>
+            <a href="#">Explore</a>
+
+        </div>
+        <ul class="social">
+            <li><a href="#"><img src="imgs/facebook.jpg" alt=""></a></li>
+            <li><a href="#"><img src="imgs/twitter.jpg" alt=""></a></li>
+            <li><a href="#"><img src="imgs/linkedin.jpg" alt=""></a></li>
+            <li><a href="#"><img src="imgs/instagram.jpg" alt=""></a></li>
+        </ul>
+
+            
+        </header>
+    </section>
+
+    <section id="directions-card">
+        <div class="container-fluid">
+        <div class="container-direction">
+            <div class="card">
+                <div class="content">
+                    <img src="imgs/ticket-icon.png" alt="">
+                    <h3>Timed $ Tickets</h3>
+                    <p>To limit the number of guests inside the zoo at any given time, please wait inside your vehicle if possible.
+                       Tickets will be available 30 days in advance. </p>
+                       <a href="#">Read More</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="content">
+                    <img src="imgs/upcoming-events-icon.png" alt="">
+                    <h3>Upcoming Events</h3>
+                    <p>The Northern Trail exhibit will be closed to begin construction on exhibit improvements. The closure will be completed in phases.
+                        The Northern Trail.</p>
+                       <a href="#">Read More</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="content">
+                    <img src="imgs/direction-icon.png" alt="">
+                    <h3>Directions</h3>
+                    <p>We strongly recommend for you to purchase your tickets online in advance of your visit. Once inside the zoo, you are welcome to enjoy. </p>
+                       <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </section>
+
+    <section id="zoo">
+        
+        
+        <video src="imgs/ZOO .mp4" autoplay muted loop></video>
+        <div class="overlay-2"></div>
+        <div class="popup">
+            <div class="contentBox">
+                <div class="close"></div>
+                <div class="imgBx">
+                    <img src="imgs/specialOffer.jpg" alt="">
+
+                </div>
+
+                <div class="content-zoo">
+                    <div>
+                    <h3>Special Offer</h3>
+                    <h2>50<sup>%</sup><span>Off</span></h2>
+                    <p>You can now visit with whole family with 50% off</p><br>
+                    <a href="#">Get the Deal</a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".card"), {
+            max: 25,
+            speed: 400,
+            glare: true,
+            "max-glare": 1,
+        });
+
+        
+
+        </script>
+</body>
+
+</html>
